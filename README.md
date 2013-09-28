@@ -1,4 +1,6 @@
-bundle-unittest
-===============
+CarteBlanche bundle - UnitTest
+=============================
 
-A unit testing bundle for development with CarteBlanche
+The default CarteBlanche bundle for Unit Testing.
+
+This package is a bundle for the [CarteBlanche framework](https://github.com/php-carteblanche/carteblanche).

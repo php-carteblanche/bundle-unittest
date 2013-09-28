@@ -1,0 +1,27 @@
+{
+    "name": "carte-blanche/bundle-unittest",
+    "type": "carte-blanche-bundle",
+    "description": "The default CarteBlanche bundle for Unit Testing.",
+    "keywords": [ "carte blanche", "bundles" ],
+    "homepage": "http://github.com/php-carteblanche/bundle-unittest",
+    "version": "0.0.1-dev",
+    "license": "Apache-2.0",
+    "authors": [{
+        "name": "Les Ateliers Pierrot & contributors",
+        "email": "contact@ateliers-pierrot.fr",
+        "homepage": "http://www.ateliers-pierrot.fr/"
+    }],
+    "require": {
+        "php": ">=5.3.0",
+        "carte-blanche/core": "dev-master"
+    },
+    "autoload": { 
+        "psr-0": { "UnitTest": "src" }
+    },
+    "repositories": [{
+        "type": "composer", "url": "http://packagist.ateliers-pierrot.fr/"
+    }],
+    "extra": {
+        "views": "src/UnitTest/views"
+    }
+}
