@@ -15,6 +15,9 @@
         "php": ">=5.3.0",
         "carte-blanche/core": "dev-master"
     },
+    "require-dev": {
+        "carte-blanche/core": "dev-wip"
+    },
     "autoload": { 
         "psr-0": { "UnitTest": "src" }
     },
