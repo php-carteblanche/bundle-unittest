@@ -158,7 +158,7 @@ class UnitTestReporter
 				'highlighted'=>true
 			)));
 			return view(
-				'UnitTest/views/message.htm', 
+				'UnitTest/views/message', 
 				array(
 					'message'=>\Dev\Profiler::formatMessage( $trace[1], $this->html ),
 					'color'=>$color
@@ -190,7 +190,7 @@ class UnitTestReporter
 		if (class_exists('\CarteBlanche\App\Kernel')) 
 		{
 			return view(
-				'UnitTest/views/test_report.htm', 
+				'UnitTest/views/test_report', 
 				array(
 					'title'=>$this->getTitle(),
 					'profiling_info' => \Dev\Profiler::renderProfilingInfo(),
